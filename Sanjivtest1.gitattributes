@@ -3,3 +3,4 @@
 # Update test
 
 system('git log --pretty=format:[%h]');
+echo "hello";
