@@ -2,5 +2,4 @@
 # text=auto
 # Update test
 
-system('git log --pretty=format:[%h]');
-echo "hello";
+api_git_commit = command "git ls-remote https://github.com/ChetanYadagude/Sanjiv_project.git HEAD";
