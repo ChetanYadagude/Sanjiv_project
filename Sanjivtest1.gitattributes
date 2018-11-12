@@ -3,3 +3,4 @@
 # Update test
 
 api_git_commit = command "git ls-remote https://github.com/ChetanYadagude/Sanjiv_project.git HEAD";
+puts "value: #{api_git_commit}";
