@@ -4,4 +4,4 @@
 
 
 current_timestamp = Time.now.strftime("%Y%m%d%H%M%S")
-Release Date: =<%= @current_timestamp%>
+puts "#{current_timestamp}"
