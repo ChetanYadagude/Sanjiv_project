@@ -2,10 +2,6 @@
 # text=auto
 # Update test
 
-package_url=<%= @package_url%>
-current_appdir=<%= @current_appdir%>
 
-Version: =<%= @artifact_version%>
-API GIT Commit: =<%= @api_git_commit%>
-UI GIT Commit: =<%= @ui_git_commit%>
+current_timestamp = Time.now.strftime("%Y%m%d%H%M%S")
 Release Date: =<%= @current_timestamp%>
