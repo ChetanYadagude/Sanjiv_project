@@ -3,5 +3,6 @@
 # Update test
 
 
-current_timestamp = Time.now.strftime("%Y%m%d%H%M%S")
-puts "#{current_timestamp}"
+puts system('git version')
+puts `git version`
+puts exec('git version')
