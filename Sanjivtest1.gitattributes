@@ -3,6 +3,5 @@
 # Update test
 
 
-puts system('git version')
-puts `git version`
-puts exec('git version')
+api_git_commit1 = command "echo '#{git ls-remote https://github.com/ChetanYadagude/Sanjiv_project.git HEAD}' >> #{api_git_commit1}"
+puts "#{api_git_commit1}"
